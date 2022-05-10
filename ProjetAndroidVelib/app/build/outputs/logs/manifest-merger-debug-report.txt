@@ -1,0 +1,330 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:2:1-59:12
+MERGED from [androidx.databinding:viewbinding:7.1.1] /Users/alexbrt/.gradle/caches/transforms-3/f99b1fbc3d34b734f2a5e148f9fe9643/transformed/viewbinding-7.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/alexbrt/.gradle/caches/transforms-3/12235c2b538091d1b616ddf4e10e0323/transformed/core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.6.0] /Users/alexbrt/.gradle/caches/transforms-3/07e874ac893168b5288f677af4fa0739/transformed/material-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/alexbrt/.gradle/caches/transforms-3/2d43a15acda8e59ace6c7e556e4a504d/transformed/constraintlayout-2.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/alexbrt/.gradle/caches/transforms-3/b55730d202dbd506bed3540b04507718/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/alexbrt/.gradle/caches/transforms-3/49d373ea5bee22ee56c94382de2771d8/transformed/play-services-maps-17.0.1/AndroidManifest.xml:17:1-44:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/13b0501545c3264106f0c6864215ff8e/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/dba6002006ccad9d694719e1c0643527/transformed/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/3e4106ae16acdcb46caeba5e1a15887b/transformed/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/c1398bfe38aab3c2ee26c871e571a975/transformed/play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/alexbrt/.gradle/caches/transforms-3/dbe3b4730373ea0837891fbb225c4acd/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/alexbrt/.gradle/caches/transforms-3/6c11cc69d7842276051c195d3c24cc31/transformed/activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/alexbrt/.gradle/caches/transforms-3/c910dbb05370976c5d2affd5ba8de2bc/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/59ae64b4608536f2c1a86db290f1a1b8/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/7099d3673d946e664f320ab1a716e5ca/transformed/emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/alexbrt/.gradle/caches/transforms-3/8a9c66ee01c98fe407b8d642424c1f5b/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/b62cd8e913ffcc24c56b40f17ab0e97b/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/9c97f00446cc0a85e99d8bdc0abb8f69/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/alexbrt/.gradle/caches/transforms-3/b29a2f4208103c99b446671c4ac79965/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/2824c973fc33e33323914a8cb1e616a3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/9081f3e4efb0810a2b1fc8e639a5c69c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/263e6679d104d39ab474594ebece5c93/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/e3792eb940c7bd8a9500bef9a49559e1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/e63c72021febd354fcc2d8646ca69efa/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/06dd23a8ef26a8e87725da011dad842d/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/bfe456ca798f73f15ffbdc934397c17d/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /Users/alexbrt/.gradle/caches/transforms-3/c818dce9f7bb007c24e14ae775ef9339/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/4d4b92e9e4127b1a237da41f2a804510/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/alexbrt/.gradle/caches/transforms-3/5de17dfaa836da4ecd2fa8c5b6c2e9fe/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/a6ea3da79ebadb9c89b39a0804dd7350/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/alexbrt/.gradle/caches/transforms-3/289f26da582bf8e8e77badfeab8f2253/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/87187aa9c01abc9a081b67ae4ab5aae1/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/alexbrt/.gradle/caches/transforms-3/004283d4d73253a21dc07c9df6935cc5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/alexbrt/.gradle/caches/transforms-3/9048dfad99aa1af063551231c3846bec/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/48678a0a32c0dcf8a908f542fc83bf9a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/ba02c0e891d0fcd191ba47df39261e61/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/alexbrt/.gradle/caches/transforms-3/ecda7045839cee9c87453a68c176d3ac/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/alexbrt/.gradle/caches/transforms-3/b13cb88ceda765f2a5de8e6c0f394fe9/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/alexbrt/.gradle/caches/transforms-3/06ed6c0365775ee2371b3053582fb90f/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/alexbrt/.gradle/caches/transforms-3/08100ea330d66644d16f9d10c5093e69/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/49afdaae6cc8795b7491ed14754262b8/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/bd4b5558781c77e19c75ecd9da7a3275/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/3c838d2867bcba0198829345d7a93c52/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/e5fbb1f1a52f0d7c44e90fd089d1abb3/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/36e515c01f2ce921bb08203c6877a2a0/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:2:1-59:12
+	package
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:2:1-59:12
+		INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:2:1-59:12
+		INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:5:5-57:19
+MERGED from [com.google.android.material:material:1.6.0] /Users/alexbrt/.gradle/caches/transforms-3/07e874ac893168b5288f677af4fa0739/transformed/material-1.6.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.0] /Users/alexbrt/.gradle/caches/transforms-3/07e874ac893168b5288f677af4fa0739/transformed/material-1.6.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/alexbrt/.gradle/caches/transforms-3/2d43a15acda8e59ace6c7e556e4a504d/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/alexbrt/.gradle/caches/transforms-3/2d43a15acda8e59ace6c7e556e4a504d/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/alexbrt/.gradle/caches/transforms-3/49d373ea5bee22ee56c94382de2771d8/transformed/play-services-maps-17.0.1/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/alexbrt/.gradle/caches/transforms-3/49d373ea5bee22ee56c94382de2771d8/transformed/play-services-maps-17.0.1/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/dba6002006ccad9d694719e1c0643527/transformed/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/dba6002006ccad9d694719e1c0643527/transformed/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/3e4106ae16acdcb46caeba5e1a15887b/transformed/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/3e4106ae16acdcb46caeba5e1a15887b/transformed/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/c1398bfe38aab3c2ee26c871e571a975/transformed/play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/c1398bfe38aab3c2ee26c871e571a975/transformed/play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/7099d3673d946e664f320ab1a716e5ca/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/7099d3673d946e664f320ab1a716e5ca/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /Users/alexbrt/.gradle/caches/transforms-3/c818dce9f7bb007c24e14ae775ef9339/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/alexbrt/.gradle/caches/transforms-3/c818dce9f7bb007c24e14ae775ef9339/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/alexbrt/.gradle/caches/transforms-3/004283d4d73253a21dc07c9df6935cc5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/alexbrt/.gradle/caches/transforms-3/004283d4d73253a21dc07c9df6935cc5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/alexbrt/.gradle/caches/transforms-3/9048dfad99aa1af063551231c3846bec/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/alexbrt/.gradle/caches/transforms-3/9048dfad99aa1af063551231c3846bec/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/48678a0a32c0dcf8a908f542fc83bf9a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/48678a0a32c0dcf8a908f542fc83bf9a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/alexbrt/.gradle/caches/transforms-3/c818dce9f7bb007c24e14ae775ef9339/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:9:9-64
+	android:icon
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:7:9-59
+	android:allowBackup
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:11:9-56
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:24:9-26:43
+	android:value
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:26:13-41
+	android:name
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:25:13-58
+activity#fr.epf.min1.projetandroidvelib.MapsActivity
+ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:28:9-31:58
+	android:label
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:31:13-56
+	android:exported
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:29:13-41
+activity#fr.epf.min1.projetandroidvelib.FavoritesStationsActivity
+ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:33:9-36:63
+	android:label
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:36:13-61
+	android:exported
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:34:13-54
+activity#fr.epf.min1.projetandroidvelib.UserAccountActivity
+ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:38:9-41:61
+	android:label
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:41:13-59
+	android:exported
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:40:13-36
+	android:name
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:39:13-48
+activity#fr.epf.min1.projetandroidvelib.AddUserActivity
+ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:43:9-45:62
+	android:label
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:45:13-60
+	android:exported
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:44:13-36
+	android:name
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:43:19-50
+activity#fr.epf.min1.projetandroidvelib.ConnectionActivity
+ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:47:9-55:20
+	android:exported
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:49:13-36
+	android:name
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:48:13-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:50:13-53:29
+action#android.intent.action.MAIN
+ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:51:17-69
+	android:name
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:51:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:52:17-77
+	android:name
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml:52:27-74
+uses-sdk
+INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml
+INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.1.1] /Users/alexbrt/.gradle/caches/transforms-3/f99b1fbc3d34b734f2a5e148f9fe9643/transformed/viewbinding-7.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.1.1] /Users/alexbrt/.gradle/caches/transforms-3/f99b1fbc3d34b734f2a5e148f9fe9643/transformed/viewbinding-7.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/alexbrt/.gradle/caches/transforms-3/12235c2b538091d1b616ddf4e10e0323/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/alexbrt/.gradle/caches/transforms-3/12235c2b538091d1b616ddf4e10e0323/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.6.0] /Users/alexbrt/.gradle/caches/transforms-3/07e874ac893168b5288f677af4fa0739/transformed/material-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.0] /Users/alexbrt/.gradle/caches/transforms-3/07e874ac893168b5288f677af4fa0739/transformed/material-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/alexbrt/.gradle/caches/transforms-3/2d43a15acda8e59ace6c7e556e4a504d/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/alexbrt/.gradle/caches/transforms-3/2d43a15acda8e59ace6c7e556e4a504d/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/alexbrt/.gradle/caches/transforms-3/b55730d202dbd506bed3540b04507718/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/alexbrt/.gradle/caches/transforms-3/b55730d202dbd506bed3540b04507718/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/alexbrt/.gradle/caches/transforms-3/49d373ea5bee22ee56c94382de2771d8/transformed/play-services-maps-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/alexbrt/.gradle/caches/transforms-3/49d373ea5bee22ee56c94382de2771d8/transformed/play-services-maps-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/13b0501545c3264106f0c6864215ff8e/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/13b0501545c3264106f0c6864215ff8e/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/dba6002006ccad9d694719e1c0643527/transformed/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/dba6002006ccad9d694719e1c0643527/transformed/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/3e4106ae16acdcb46caeba5e1a15887b/transformed/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/3e4106ae16acdcb46caeba5e1a15887b/transformed/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/c1398bfe38aab3c2ee26c871e571a975/transformed/play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/c1398bfe38aab3c2ee26c871e571a975/transformed/play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/alexbrt/.gradle/caches/transforms-3/dbe3b4730373ea0837891fbb225c4acd/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/alexbrt/.gradle/caches/transforms-3/dbe3b4730373ea0837891fbb225c4acd/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/alexbrt/.gradle/caches/transforms-3/6c11cc69d7842276051c195d3c24cc31/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/alexbrt/.gradle/caches/transforms-3/6c11cc69d7842276051c195d3c24cc31/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/alexbrt/.gradle/caches/transforms-3/c910dbb05370976c5d2affd5ba8de2bc/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/alexbrt/.gradle/caches/transforms-3/c910dbb05370976c5d2affd5ba8de2bc/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/59ae64b4608536f2c1a86db290f1a1b8/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/59ae64b4608536f2c1a86db290f1a1b8/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/7099d3673d946e664f320ab1a716e5ca/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/7099d3673d946e664f320ab1a716e5ca/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/alexbrt/.gradle/caches/transforms-3/8a9c66ee01c98fe407b8d642424c1f5b/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/alexbrt/.gradle/caches/transforms-3/8a9c66ee01c98fe407b8d642424c1f5b/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/b62cd8e913ffcc24c56b40f17ab0e97b/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/b62cd8e913ffcc24c56b40f17ab0e97b/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/9c97f00446cc0a85e99d8bdc0abb8f69/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/9c97f00446cc0a85e99d8bdc0abb8f69/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/alexbrt/.gradle/caches/transforms-3/b29a2f4208103c99b446671c4ac79965/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/alexbrt/.gradle/caches/transforms-3/b29a2f4208103c99b446671c4ac79965/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/2824c973fc33e33323914a8cb1e616a3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/2824c973fc33e33323914a8cb1e616a3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/9081f3e4efb0810a2b1fc8e639a5c69c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/9081f3e4efb0810a2b1fc8e639a5c69c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/263e6679d104d39ab474594ebece5c93/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/263e6679d104d39ab474594ebece5c93/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/e3792eb940c7bd8a9500bef9a49559e1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/e3792eb940c7bd8a9500bef9a49559e1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/e63c72021febd354fcc2d8646ca69efa/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/e63c72021febd354fcc2d8646ca69efa/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/06dd23a8ef26a8e87725da011dad842d/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/06dd23a8ef26a8e87725da011dad842d/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/bfe456ca798f73f15ffbdc934397c17d/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/bfe456ca798f73f15ffbdc934397c17d/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/alexbrt/.gradle/caches/transforms-3/c818dce9f7bb007c24e14ae775ef9339/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/alexbrt/.gradle/caches/transforms-3/c818dce9f7bb007c24e14ae775ef9339/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/4d4b92e9e4127b1a237da41f2a804510/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/4d4b92e9e4127b1a237da41f2a804510/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/alexbrt/.gradle/caches/transforms-3/5de17dfaa836da4ecd2fa8c5b6c2e9fe/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/alexbrt/.gradle/caches/transforms-3/5de17dfaa836da4ecd2fa8c5b6c2e9fe/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/a6ea3da79ebadb9c89b39a0804dd7350/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/a6ea3da79ebadb9c89b39a0804dd7350/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/alexbrt/.gradle/caches/transforms-3/289f26da582bf8e8e77badfeab8f2253/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/alexbrt/.gradle/caches/transforms-3/289f26da582bf8e8e77badfeab8f2253/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/87187aa9c01abc9a081b67ae4ab5aae1/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/87187aa9c01abc9a081b67ae4ab5aae1/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/alexbrt/.gradle/caches/transforms-3/004283d4d73253a21dc07c9df6935cc5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/alexbrt/.gradle/caches/transforms-3/004283d4d73253a21dc07c9df6935cc5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/alexbrt/.gradle/caches/transforms-3/9048dfad99aa1af063551231c3846bec/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/alexbrt/.gradle/caches/transforms-3/9048dfad99aa1af063551231c3846bec/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/48678a0a32c0dcf8a908f542fc83bf9a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/48678a0a32c0dcf8a908f542fc83bf9a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/ba02c0e891d0fcd191ba47df39261e61/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/ba02c0e891d0fcd191ba47df39261e61/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/alexbrt/.gradle/caches/transforms-3/ecda7045839cee9c87453a68c176d3ac/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/alexbrt/.gradle/caches/transforms-3/ecda7045839cee9c87453a68c176d3ac/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/alexbrt/.gradle/caches/transforms-3/b13cb88ceda765f2a5de8e6c0f394fe9/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/alexbrt/.gradle/caches/transforms-3/b13cb88ceda765f2a5de8e6c0f394fe9/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/alexbrt/.gradle/caches/transforms-3/06ed6c0365775ee2371b3053582fb90f/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/alexbrt/.gradle/caches/transforms-3/06ed6c0365775ee2371b3053582fb90f/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/alexbrt/.gradle/caches/transforms-3/08100ea330d66644d16f9d10c5093e69/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/alexbrt/.gradle/caches/transforms-3/08100ea330d66644d16f9d10c5093e69/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/49afdaae6cc8795b7491ed14754262b8/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/49afdaae6cc8795b7491ed14754262b8/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/bd4b5558781c77e19c75ecd9da7a3275/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/bd4b5558781c77e19c75ecd9da7a3275/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/3c838d2867bcba0198829345d7a93c52/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/3c838d2867bcba0198829345d7a93c52/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/e5fbb1f1a52f0d7c44e90fd089d1abb3/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/e5fbb1f1a52f0d7c44e90fd089d1abb3/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/36e515c01f2ce921bb08203c6877a2a0/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/alexbrt/.gradle/caches/transforms-3/36e515c01f2ce921bb08203c6877a2a0/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml
+INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/alexbrt/.gradle/caches/transforms-3/49d373ea5bee22ee56c94382de2771d8/transformed/play-services-maps-17.0.1/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/alexbrt/.gradle/caches/transforms-3/49d373ea5bee22ee56c94382de2771d8/transformed/play-services-maps-17.0.1/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/alexbrt/.gradle/caches/transforms-3/49d373ea5bee22ee56c94382de2771d8/transformed/play-services-maps-17.0.1/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/alexbrt/.gradle/caches/transforms-3/49d373ea5bee22ee56c94382de2771d8/transformed/play-services-maps-17.0.1/AndroidManifest.xml:24:22-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/alexbrt/.gradle/caches/transforms-3/49d373ea5bee22ee56c94382de2771d8/transformed/play-services-maps-17.0.1/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/alexbrt/.gradle/caches/transforms-3/49d373ea5bee22ee56c94382de2771d8/transformed/play-services-maps-17.0.1/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/alexbrt/.gradle/caches/transforms-3/49d373ea5bee22ee56c94382de2771d8/transformed/play-services-maps-17.0.1/AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/alexbrt/.gradle/caches/transforms-3/49d373ea5bee22ee56c94382de2771d8/transformed/play-services-maps-17.0.1/AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/alexbrt/.gradle/caches/transforms-3/49d373ea5bee22ee56c94382de2771d8/transformed/play-services-maps-17.0.1/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/alexbrt/.gradle/caches/transforms-3/49d373ea5bee22ee56c94382de2771d8/transformed/play-services-maps-17.0.1/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/alexbrt/.gradle/caches/transforms-3/49d373ea5bee22ee56c94382de2771d8/transformed/play-services-maps-17.0.1/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/alexbrt/.gradle/caches/transforms-3/49d373ea5bee22ee56c94382de2771d8/transformed/play-services-maps-17.0.1/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/alexbrt/.gradle/caches/transforms-3/49d373ea5bee22ee56c94382de2771d8/transformed/play-services-maps-17.0.1/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/dba6002006ccad9d694719e1c0643527/transformed/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/dba6002006ccad9d694719e1c0643527/transformed/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/dba6002006ccad9d694719e1c0643527/transformed/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/dba6002006ccad9d694719e1c0643527/transformed/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/c1398bfe38aab3c2ee26c871e571a975/transformed/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/c1398bfe38aab3c2ee26c871e571a975/transformed/play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/alexbrt/.gradle/caches/transforms-3/c1398bfe38aab3c2ee26c871e571a975/transformed/play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/7099d3673d946e664f320ab1a716e5ca/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/alexbrt/.gradle/caches/transforms-3/9048dfad99aa1af063551231c3846bec/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/alexbrt/.gradle/caches/transforms-3/9048dfad99aa1af063551231c3846bec/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/48678a0a32c0dcf8a908f542fc83bf9a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/48678a0a32c0dcf8a908f542fc83bf9a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/7099d3673d946e664f320ab1a716e5ca/transformed/emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/7099d3673d946e664f320ab1a716e5ca/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/7099d3673d946e664f320ab1a716e5ca/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/7099d3673d946e664f320ab1a716e5ca/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/7099d3673d946e664f320ab1a716e5ca/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/7099d3673d946e664f320ab1a716e5ca/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/alexbrt/.gradle/caches/transforms-3/7099d3673d946e664f320ab1a716e5ca/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/alexbrt/.gradle/caches/transforms-3/9048dfad99aa1af063551231c3846bec/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/alexbrt/.gradle/caches/transforms-3/9048dfad99aa1af063551231c3846bec/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/alexbrt/.gradle/caches/transforms-3/9048dfad99aa1af063551231c3846bec/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
