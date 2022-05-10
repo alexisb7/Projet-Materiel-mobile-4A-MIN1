@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Vélib Map</string>
+    <string name="title_activity_maps">Vélib Map</string>
+    <string name="title_activity_account">Compte Utilisateur</string>
+    <string name="title_activity_favorites">Stations Favorites</string>
+    <string name="user_name">Nom : </string>
+    <string name="user_first_name">Prénom : </string>
+    <string name="user_gender">Genre : </string>
+    <string name="user_email">Email : </string>
+    <string name="user_age">Age : </string>
+    <string name="user_add_button">Je m\'inscris</string>
+    <string name="title_activity_new_user">Nouvel utilisateur</string>
+    <string name="user_id">Identifiant : </string>
+    <string name="user_mdp">Mot de passe : </string>
+    <string name="connection_button">Connexion</string>
+    <string name="add_new_user">Je ne suis pas inscrit</string>
+    <string name="welcome">Bienvenue sur Vélib Map</string>
+</resources>
