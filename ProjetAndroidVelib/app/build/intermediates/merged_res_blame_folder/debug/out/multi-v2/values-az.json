@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml",
+            "outputFile": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml",
             "map": [
                 {
                     "source": "/Users/alexbrt/.gradle/caches/transforms-3/07e874ac893168b5288f677af4fa0739/transformed/material-1.6.0/res/values-az/values-az.xml",

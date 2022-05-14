@@ -2523,6 +2523,7 @@ drawable ic_baseline_account_circle_24
 drawable ic_baseline_favorite_24
 drawable ic_baseline_location_on_24
 drawable ic_baseline_pedal_bike_24
+drawable ic_baseline_refresh_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2947,6 +2948,7 @@ id radioButton_male
 id radioGroup_gender
 id ratio
 id rectangles
+id reload_map_action
 id reverseSawtooth
 id right
 id rightToLeft

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml",
+            "outputFile": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml",
             "map": [
                 {
                     "source": "/Users/alexbrt/.gradle/caches/transforms-3/c1398bfe38aab3c2ee26c871e571a975/transformed/play-services-basement-17.0.0/res/values-lo/values.xml",

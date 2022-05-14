@@ -11,6 +11,7 @@ drawable ic_baseline_account_circle_24
 drawable ic_baseline_favorite_24
 drawable ic_baseline_location_on_24
 drawable ic_baseline_pedal_bike_24
+drawable ic_baseline_refresh_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id add_client_button
@@ -27,6 +28,7 @@ id new_user_button
 id radioButton_female
 id radioButton_male
 id radioGroup_gender
+id reload_map_action
 id seekBar_age
 id user_account_action
 layout activity_account_user

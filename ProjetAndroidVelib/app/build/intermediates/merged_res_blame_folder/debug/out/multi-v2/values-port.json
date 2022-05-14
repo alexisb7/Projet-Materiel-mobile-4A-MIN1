@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/ProjetAndroidVelib/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "outputFile": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
                     "source": "/Users/alexbrt/.gradle/caches/transforms-3/b55730d202dbd506bed3540b04507718/transformed/appcompat-1.4.1/res/values-port/values-port.xml",

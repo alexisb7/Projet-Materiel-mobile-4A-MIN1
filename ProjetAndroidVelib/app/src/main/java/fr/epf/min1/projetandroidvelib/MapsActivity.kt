@@ -5,17 +5,25 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.maps.model.BitmapDescriptorFactory
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
+import com.google.gson.JsonObject
+import fr.epf.min1.projetandroidvelib.api.StationsService
 import fr.epf.min1.projetandroidvelib.databinding.ActivityMapsBinding
+import fr.epf.min1.projetandroidvelib.model.Station
+import retrofit2.*
+import retrofit2.converter.gson.GsonConverterFactory
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
+    private var listStations: MutableList<Station> = mutableListOf()
     private lateinit var mMap: GoogleMap
     private lateinit var binding: ActivityMapsBinding
 
@@ -42,11 +50,49 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
      */
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
+        val retrofit = Retrofit.Builder()
+            .baseUrl("https://velib-metropole-opendata.smoove.pro/")
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
 
+        val service = retrofit.create(StationsService::class.java)
+        val result = service.getStations()
+        result.enqueue(object: Callback<JsonObject> {
+            override fun onResponse(call: Call<JsonObject>, response: Response<JsonObject>) {
+                if(response.isSuccessful){
+                    val result = response.body()
+                    val data = result?.get("data")?.asJsonObject
+                    val stations = data?.get("stations")?.asJsonArray
+                    if (stations != null) {
+                        for(i in stations){
+                            val s = Station(
+                                i.asJsonObject.get("station_id").asInt,
+                                i.asJsonObject.get("name").asString,
+                                i.asJsonObject.get("lat").asDouble,
+                                i.asJsonObject.get("lon").asDouble,
+                                i.asJsonObject.get("capacity").asInt,
+                                i.asJsonObject.get("stationCode").asString)
+                            listStations.add(s)
+                            val position = LatLng(s.lat, s.lon)
+                            mMap.addMarker(MarkerOptions()
+                                .position(position)
+                                .title(s.name)
+                                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)))
+                            mMap.moveCamera(CameraUpdateFactory.newLatLng(position))
+                        }
+                    }
+                }
+            }
+
+            override fun onFailure(call: Call<JsonObject>, t: Throwable) {
+                Toast.makeText(applicationContext, "Erreur serveur", Toast.LENGTH_SHORT).show()
+            }
+        }
+        )
         // Add a marker in Sydney and move the camera
-        val sydney = LatLng(-34.0, 151.0)
+        /* val sydney = LatLng(-34.0, 151.0)
         mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney)) */
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -62,7 +108,49 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
             R.id.user_account_action -> {
                 startActivity(Intent(this, UserAccountActivity::class.java))
             }
+            R.id.reload_map_action -> {
+                synchroApi()
+            }
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    private fun synchroApi() {
+        val retrofit = Retrofit.Builder()
+            .baseUrl("https://velib-metropole-opendata.smoove.pro/")
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+
+        val service = retrofit.create(StationsService::class.java)
+        val result = service.getStations()
+        result.enqueue(object: Callback<JsonObject> {
+            override fun onResponse(call: Call<JsonObject>, response: Response<JsonObject>) {
+                if(response.isSuccessful){
+                    val result = response.body()
+                    val data = result?.get("data")?.asJsonObject
+                    val stations = data?.get("stations")?.asJsonArray
+                    if (stations != null) {
+                        for(i in stations){
+                            val s = Station(
+                                i.asJsonObject.get("station_id").asInt,
+                                i.asJsonObject.get("name").asString,
+                                i.asJsonObject.get("lat").asDouble,
+                                i.asJsonObject.get("lon").asDouble,
+                                i.asJsonObject.get("capacity").asInt,
+                                i.asJsonObject.get("stationCode").asString)
+                            listStations.add(s)
+                            val position = LatLng(s.lat, s.lon)
+                            mMap.addMarker(MarkerOptions().position(position).title(s.name))
+                            mMap.moveCamera(CameraUpdateFactory.newLatLng(position))
+                        }
+                    }
+                }
+            }
+
+            override fun onFailure(call: Call<JsonObject>, t: Throwable) {
+                Toast.makeText(applicationContext, "Erreur serveur", Toast.LENGTH_SHORT).show()
+            }
+        }
+        )
     }
 }
