@@ -13,17 +13,18 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.BitmapDescriptorFactory
 import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.Marker
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.gson.JsonObject
-import fr.epf.min1.projetandroidvelib.api.StationsService
+import fr.epf.min1.projetandroidvelib.api.InformationService
 import fr.epf.min1.projetandroidvelib.databinding.ActivityMapsBinding
-import fr.epf.min1.projetandroidvelib.model.Station
+import fr.epf.min1.projetandroidvelib.model.StationInformation
 import retrofit2.*
 import retrofit2.converter.gson.GsonConverterFactory
 
-class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
+class MapsActivity : AppCompatActivity(), GoogleMap.OnInfoWindowClickListener, OnMapReadyCallback {
 
-    private var listStations: MutableList<Station> = mutableListOf()
+    var listStations: MutableList<StationInformation> = mutableListOf()
     private lateinit var mMap: GoogleMap
     private lateinit var binding: ActivityMapsBinding
 
@@ -50,53 +51,25 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
      */
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
-        val retrofit = Retrofit.Builder()
-            .baseUrl("https://velib-metropole-opendata.smoove.pro/")
-            .addConverterFactory(GsonConverterFactory.create())
-            .build()
+        synchroApi()
+        mMap.setOnInfoWindowClickListener(this)
+    }
 
-        val service = retrofit.create(StationsService::class.java)
-        val result = service.getStations()
-        result.enqueue(object: Callback<JsonObject> {
-            override fun onResponse(call: Call<JsonObject>, response: Response<JsonObject>) {
-                if(response.isSuccessful){
-                    val result = response.body()
-                    val data = result?.get("data")?.asJsonObject
-                    val stations = data?.get("stations")?.asJsonArray
-                    if (stations != null) {
-                        for(i in stations){
-                            val s = Station(
-                                i.asJsonObject.get("station_id").asInt,
-                                i.asJsonObject.get("name").asString,
-                                i.asJsonObject.get("lat").asDouble,
-                                i.asJsonObject.get("lon").asDouble,
-                                i.asJsonObject.get("capacity").asInt,
-                                i.asJsonObject.get("stationCode").asString)
-                            listStations.add(s)
-                            val position = LatLng(s.lat, s.lon)
-                            mMap.addMarker(MarkerOptions()
-                                .position(position)
-                                .title(s.name)
-                                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)))
-                            mMap.moveCamera(CameraUpdateFactory.newLatLng(position))
-                        }
-                    }
-                }
-            }
-
-            override fun onFailure(call: Call<JsonObject>, t: Throwable) {
-                Toast.makeText(applicationContext, "Erreur serveur", Toast.LENGTH_SHORT).show()
+    override fun onInfoWindowClick(marker: Marker) {
+        val intent = Intent(this, DetailsStationsActivity::class.java)
+        for(i in listStations) {
+            val stationPosition = LatLng(i.lat, i.lon)
+            if (marker.position == stationPosition) {
+                intent.putExtra("station_id", i.station_id)
+                intent.putExtra("station_name", i.name)
+                intent.putExtra("station_capacity", i.capacity)
+                startActivity(intent)
             }
         }
-        )
-        // Add a marker in Sydney and move the camera
-        /* val sydney = LatLng(-34.0, 151.0)
-        mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney)) */
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu_user, menu)
+        menuInflater.inflate(R.menu.goto_favorites_stations, menu)
         return super.onCreateOptionsMenu(menu)
     }
 
@@ -104,12 +77,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         when(item.itemId){
             R.id.favorites_stations_action -> {
                 startActivity(Intent(this, FavoritesStationsActivity::class.java))
-            }
-            R.id.user_account_action -> {
-                startActivity(Intent(this, UserAccountActivity::class.java))
-            }
-            R.id.reload_map_action -> {
-                synchroApi()
             }
         }
         return super.onOptionsItemSelected(item)
@@ -121,7 +88,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
-        val service = retrofit.create(StationsService::class.java)
+        val service = retrofit.create(InformationService::class.java)
         val result = service.getStations()
         result.enqueue(object: Callback<JsonObject> {
             override fun onResponse(call: Call<JsonObject>, response: Response<JsonObject>) {
@@ -131,7 +98,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                     val stations = data?.get("stations")?.asJsonArray
                     if (stations != null) {
                         for(i in stations){
-                            val s = Station(
+                            val s = StationInformation(
                                 i.asJsonObject.get("station_id").asInt,
                                 i.asJsonObject.get("name").asString,
                                 i.asJsonObject.get("lat").asDouble,
@@ -140,8 +107,14 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                                 i.asJsonObject.get("stationCode").asString)
                             listStations.add(s)
                             val position = LatLng(s.lat, s.lon)
-                            mMap.addMarker(MarkerOptions().position(position).title(s.name))
-                            mMap.moveCamera(CameraUpdateFactory.newLatLng(position))
+                            mMap.addMarker(MarkerOptions()
+                                .position(position)
+                                .title(s.name)
+                                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE))
+                                .snippet("Capacité : ${s.capacity}")
+                            )
+                            val zoomLevel = 16.0f
+                            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(position, zoomLevel))
                         }
                     }
                 }

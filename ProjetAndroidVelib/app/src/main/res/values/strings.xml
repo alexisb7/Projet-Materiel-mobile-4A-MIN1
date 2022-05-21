@@ -15,4 +15,7 @@
     <string name="connection_button">Connexion</string>
     <string name="add_new_user">Je ne suis pas inscrit</string>
     <string name="welcome">Bienvenue sur Vélib Map</string>
+    <string name="title_activity_details_stations">Détails de la station</string>
+    <string name="capacity">Capacité : </string>
+    <string name="add_favorites">Ajouter à mes favoris</string>
 </resources>
