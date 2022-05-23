@@ -23,7 +23,6 @@ class FavoritesStationsActivity : AppCompatActivity() {
         val recyclerView = findViewById<RecyclerView>(R.id.list_favorites_stations)
         recyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
-        //val listStationsFavorites = StationInformation.bdd(40)
         val bdd = Room.databaseBuilder(
             applicationContext,
             AppDataBase::class.java, "stationEntity"

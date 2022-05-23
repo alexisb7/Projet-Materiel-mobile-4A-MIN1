@@ -35,27 +35,76 @@ class DetailsStationsActivity : AppCompatActivity() {
         synchroApi()
 
         val addFavoritesButton = findViewById<Button>(R.id.add_to_favorites_button)
-        addFavoritesButton.setOnClickListener {
-            val bdd = Room.databaseBuilder(
-                applicationContext,
-                AppDataBase::class.java, "stationEntity"
-            ).build()
+        var addOrDelete = 0
 
-            val stationDao = bdd.stationDao()
-            val station = StationEntity(
-                detailStation.stationId,
-                intent.getStringExtra("station_name")!!,
-                op,
-                intent.getIntExtra("station_capacity", -1),
-                detailStation.numBikesAvailable,
-                detailStation.numDocksAvailable,
-                detailStation.mechanical,
-                detailStation.eBike
-            )
-            runBlocking {
-                stationDao.insert(station)
-                Toast.makeText(applicationContext, "Station ajoutée à vos favoris", Toast.LENGTH_SHORT).show()
+        val bdd = Room.databaseBuilder(
+            applicationContext,
+            AppDataBase::class.java, "stationEntity"
+        ).build()
+
+        val stationDao = bdd.stationDao()
+        runBlocking {
+            val listStations = stationDao.getAll()
+            var fav = false
+            for(i in listStations){
+                if(i.id == stationId){
+                    fav = true
+                }
             }
+            if(fav){
+                addFavoritesButton.text = "Supprimer de vos favoris"
+                addOrDelete = 1
+            }
+            else addFavoritesButton.text = "Ajouter à vos favoris"
+        }
+
+        addFavoritesButton.setOnClickListener {
+            if(addOrDelete == 1){
+                val bdd = Room.databaseBuilder(
+                    applicationContext,
+                    AppDataBase::class.java, "stationEntity"
+                ).build()
+
+                val stationDao = bdd.stationDao()
+                val station = StationEntity(
+                    detailStation.stationId,
+                    intent.getStringExtra("station_name")!!,
+                    op,
+                    intent.getIntExtra("station_capacity", -1),
+                    detailStation.numBikesAvailable,
+                    detailStation.numDocksAvailable,
+                    detailStation.mechanical,
+                    detailStation.eBike
+                )
+                runBlocking {
+                    stationDao.delete(station)
+                    Toast.makeText(applicationContext, "Station supprimée de vos favoris", Toast.LENGTH_SHORT).show()
+                }
+            }
+            else {
+                val bdd = Room.databaseBuilder(
+                    applicationContext,
+                    AppDataBase::class.java, "stationEntity"
+                ).build()
+
+                val stationDao = bdd.stationDao()
+                val station = StationEntity(
+                    detailStation.stationId,
+                    intent.getStringExtra("station_name")!!,
+                    op,
+                    intent.getIntExtra("station_capacity", -1),
+                    detailStation.numBikesAvailable,
+                    detailStation.numDocksAvailable,
+                    detailStation.mechanical,
+                    detailStation.eBike
+                )
+                runBlocking {
+                    stationDao.insert(station)
+                    Toast.makeText(applicationContext, "Station ajoutée à vos favoris", Toast.LENGTH_SHORT).show()
+                }
+            }
+            finish()
+            startActivity(intent)
         }
     }
 
@@ -121,6 +170,7 @@ class DetailsStationsActivity : AppCompatActivity() {
 
             override fun onFailure(call: Call<JsonObject>, t: Throwable) {
                 Toast.makeText(applicationContext, "Erreur serveur", Toast.LENGTH_SHORT).show()
+                printDetailsHC()
             }
         }
         )
@@ -159,5 +209,36 @@ class DetailsStationsActivity : AppCompatActivity() {
         tvNbDockAvailable.text = ""+detailStation.numDocksAvailable
         tvNbMech.text = ""+detailStation.mechanical
         tvNbEbike.text = ""+detailStation.eBike
+    }
+
+    private fun printDetailsHC() {
+        val name = intent.getStringExtra("station_name")
+        val capacity = intent.getIntExtra("station_capacity", -1)
+        val tvName = findViewById<TextView>(R.id.station_name)
+        val tvCapacity = findViewById<TextView>(R.id.capacity)
+        val capacityTV = findViewById<TextView>(R.id.capacity_tv)
+        val tvNbBikeAvailable = findViewById<TextView>(R.id.nb_velo_dispo)
+        val nbBikeAvailableTV = findViewById<TextView>(R.id.nb_velo_dispo_tv)
+        val tvNbDockAvailable = findViewById<TextView>(R.id.nb_borne_dispo)
+        val nbDockAvailableTV = findViewById<TextView>(R.id.nb_borne_dispo_tv)
+        val tvNbMech = findViewById<TextView>(R.id.nb_mech)
+        val nbMechTV = findViewById<TextView>(R.id.nb_mech_tv)
+        val tvNbEbike = findViewById<TextView>(R.id.nb_ebike)
+        val nbEbikeTV = findViewById<TextView>(R.id.nb_ebike_tv)
+        val tvOperationnel = findViewById<TextView>(R.id.operationnel)
+        val operationnelTV = findViewById<TextView>(R.id.operationnel_tv)
+        tvName.text = name
+        operationnelTV.text = "Opérationnelle : "
+        capacityTV.text = "Capacité"
+        nbBikeAvailableTV.text = "Nombre de vélos disponibles : "
+        nbDockAvailableTV.text = "Nombre de bornes diponibles : "
+        nbMechTV.text = "Nombre de vélos mécaniques : "
+        nbEbikeTV.text = "Nombre de vélos électriques : "
+        tvOperationnel.text = intent.getStringExtra("station_op")
+        tvCapacity.text = ""+capacity
+        tvNbBikeAvailable.text = ""+ intent.getIntExtra("nb_bike", -1)
+        tvNbDockAvailable.text = ""+ intent.getIntExtra("nb_dock", -1)
+        tvNbMech.text = ""+ intent.getIntExtra("mechanical", -1)
+        tvNbEbike.text = ""+ intent.getIntExtra("eBike", -1)
     }
 }

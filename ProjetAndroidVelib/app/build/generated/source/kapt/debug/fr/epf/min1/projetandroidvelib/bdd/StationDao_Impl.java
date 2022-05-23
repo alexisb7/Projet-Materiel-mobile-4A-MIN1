@@ -3,6 +3,7 @@ package fr.epf.min1.projetandroidvelib.bdd;
 import android.database.Cursor;
 import android.os.CancellationSignal;
 import androidx.room.CoroutinesRoom;
+import androidx.room.EntityDeletionOrUpdateAdapter;
 import androidx.room.EntityInsertionAdapter;
 import androidx.room.RoomDatabase;
 import androidx.room.RoomSQLiteQuery;
@@ -27,6 +28,8 @@ public final class StationDao_Impl implements StationDao {
   private final RoomDatabase __db;
 
   private final EntityInsertionAdapter<StationEntity> __insertionAdapterOfStationEntity;
+
+  private final EntityDeletionOrUpdateAdapter<StationEntity> __deletionAdapterOfStationEntity;
 
   public StationDao_Impl(RoomDatabase __db) {
     this.__db = __db;
@@ -56,17 +59,45 @@ public final class StationDao_Impl implements StationDao {
         stmt.bindLong(8, value.getEBike());
       }
     };
+    this.__deletionAdapterOfStationEntity = new EntityDeletionOrUpdateAdapter<StationEntity>(__db) {
+      @Override
+      public String createQuery() {
+        return "DELETE FROM `StationEntity` WHERE `id` = ?";
+      }
+
+      @Override
+      public void bind(SupportSQLiteStatement stmt, StationEntity value) {
+        stmt.bindLong(1, value.getId());
+      }
+    };
   }
 
   @Override
-  public Object insert(final StationEntity[] stations,
+  public Object insert(final StationEntity[] station,
       final Continuation<? super Unit> continuation) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       public Unit call() throws Exception {
         __db.beginTransaction();
         try {
-          __insertionAdapterOfStationEntity.insert(stations);
+          __insertionAdapterOfStationEntity.insert(station);
+          __db.setTransactionSuccessful();
+          return Unit.INSTANCE;
+        } finally {
+          __db.endTransaction();
+        }
+      }
+    }, continuation);
+  }
+
+  @Override
+  public Object delete(final StationEntity station, final Continuation<? super Unit> continuation) {
+    return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
+      @Override
+      public Unit call() throws Exception {
+        __db.beginTransaction();
+        try {
+          __deletionAdapterOfStationEntity.handle(station);
           __db.setTransactionSuccessful();
           return Unit.INSTANCE;
         } finally {

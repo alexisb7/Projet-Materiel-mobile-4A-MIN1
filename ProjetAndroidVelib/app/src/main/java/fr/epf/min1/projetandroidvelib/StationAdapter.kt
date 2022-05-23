@@ -26,7 +26,12 @@ class StationAdapter (val listStation: List<StationEntity>) : RecyclerView.Adapt
             val intent = Intent(context, DetailsStationsActivity::class.java)
             intent.putExtra("station_id", stationEntity.id)
             intent.putExtra("station_name", stationEntity.name)
+            intent.putExtra("station_op", stationEntity.op)
             intent.putExtra("station_capacity", stationEntity.capacity)
+            intent.putExtra("nb_bike", stationEntity.nbBikeAvailable)
+            intent.putExtra("nb_dock", stationEntity.nbDockAvailable)
+            intent.putExtra("mechanical", stationEntity.mechanical)
+            intent.putExtra("eBike", stationEntity.eBike)
             context.startActivity(intent)
         }
 
@@ -34,7 +39,7 @@ class StationAdapter (val listStation: List<StationEntity>) : RecyclerView.Adapt
         stationNameTV.text = stationEntity.name
 
         val stationCapacityTV = holder.view.findViewById<TextView>(R.id.adapter_station_capacity)
-        stationCapacityTV.text = "Capacité : " + stationEntity.capacity
+        stationCapacityTV.text = "Nombre de vélos disponibles : " + stationEntity.nbBikeAvailable
     }
 
     override fun getItemCount(): Int = listStation.size
