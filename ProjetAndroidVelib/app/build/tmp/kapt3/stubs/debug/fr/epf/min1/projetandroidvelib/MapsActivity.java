@@ -2,8 +2,8 @@ package fr.epf.min1.projetandroidvelib;
 
 import java.lang.System;
 
-@kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u0000V\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010!\n\u0002\u0018\u0002\n\u0002\b\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0004\n\u0002\u0018\u0002\n\u0002\b\u0002\u0018\u00002\u00020\u00012\u00020\u00022\u00020\u0003B\u0005\u00a2\u0006\u0002\u0010\u0004J\u0012\u0010\u0010\u001a\u00020\u00112\b\u0010\u0012\u001a\u0004\u0018\u00010\u0013H\u0014J\u0012\u0010\u0014\u001a\u00020\u00152\b\u0010\u0016\u001a\u0004\u0018\u00010\u0017H\u0016J\u0010\u0010\u0018\u001a\u00020\u00112\u0006\u0010\u0019\u001a\u00020\u001aH\u0016J\u0010\u0010\u001b\u001a\u00020\u00112\u0006\u0010\u001c\u001a\u00020\u000fH\u0016J\u0010\u0010\u001d\u001a\u00020\u00152\u0006\u0010\u001e\u001a\u00020\u001fH\u0016J\b\u0010 \u001a\u00020\u0011H\u0002R\u000e\u0010\u0005\u001a\u00020\u0006X\u0082.\u00a2\u0006\u0002\n\u0000R \u0010\u0007\u001a\b\u0012\u0004\u0012\u00020\t0\bX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\n\u0010\u000b\"\u0004\b\f\u0010\rR\u000e\u0010\u000e\u001a\u00020\u000fX\u0082.\u00a2\u0006\u0002\n\u0000\u00a8\u0006!"}, d2 = {"Lfr/epf/min1/projetandroidvelib/MapsActivity;", "Landroidx/appcompat/app/AppCompatActivity;", "Lcom/google/android/gms/maps/GoogleMap$OnInfoWindowClickListener;", "Lcom/google/android/gms/maps/OnMapReadyCallback;", "()V", "binding", "Lfr/epf/min1/projetandroidvelib/databinding/ActivityMapsBinding;", "listStations", "", "Lfr/epf/min1/projetandroidvelib/model/StationInformation;", "getListStations", "()Ljava/util/List;", "setListStations", "(Ljava/util/List;)V", "mMap", "Lcom/google/android/gms/maps/GoogleMap;", "onCreate", "", "savedInstanceState", "Landroid/os/Bundle;", "onCreateOptionsMenu", "", "menu", "Landroid/view/Menu;", "onInfoWindowClick", "marker", "Lcom/google/android/gms/maps/model/Marker;", "onMapReady", "googleMap", "onOptionsItemSelected", "item", "Landroid/view/MenuItem;", "synchroApi", "app_debug"})
-public final class MapsActivity extends androidx.appcompat.app.AppCompatActivity implements com.google.android.gms.maps.GoogleMap.OnInfoWindowClickListener, com.google.android.gms.maps.OnMapReadyCallback {
+@kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u0000l\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010!\n\u0002\u0018\u0002\n\u0002\b\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0005\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\u0018\u00002\u00020\u00012\u00020\u00022\u00020\u00032\u00020\u00042\u00020\u00052\u00020\u0006B\u0005\u00a2\u0006\u0002\u0010\u0007J\b\u0010\u0013\u001a\u00020\u0014H\u0003J\u0012\u0010\u0015\u001a\u00020\u00142\b\u0010\u0016\u001a\u0004\u0018\u00010\u0017H\u0014J\u0012\u0010\u0018\u001a\u00020\u00192\b\u0010\u001a\u001a\u0004\u0018\u00010\u001bH\u0016J\u0010\u0010\u001c\u001a\u00020\u00142\u0006\u0010\u001d\u001a\u00020\u001eH\u0016J\u0010\u0010\u001f\u001a\u00020\u00142\u0006\u0010 \u001a\u00020\u0012H\u0016J\b\u0010!\u001a\u00020\u0019H\u0016J\u0010\u0010\"\u001a\u00020\u00142\u0006\u0010#\u001a\u00020$H\u0016J\u0010\u0010%\u001a\u00020\u00192\u0006\u0010&\u001a\u00020\'H\u0016J\b\u0010(\u001a\u00020\u0014H\u0002R\u000e\u0010\b\u001a\u00020\tX\u0082.\u00a2\u0006\u0002\n\u0000R \u0010\n\u001a\b\u0012\u0004\u0012\u00020\f0\u000bX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\r\u0010\u000e\"\u0004\b\u000f\u0010\u0010R\u000e\u0010\u0011\u001a\u00020\u0012X\u0082.\u00a2\u0006\u0002\n\u0000\u00a8\u0006)"}, d2 = {"Lfr/epf/min1/projetandroidvelib/MapsActivity;", "Landroidx/appcompat/app/AppCompatActivity;", "Lcom/google/android/gms/maps/GoogleMap$OnInfoWindowClickListener;", "Lcom/google/android/gms/maps/OnMapReadyCallback;", "Lcom/google/android/gms/maps/GoogleMap$OnMyLocationButtonClickListener;", "Lcom/google/android/gms/maps/GoogleMap$OnMyLocationClickListener;", "Landroidx/core/app/ActivityCompat$OnRequestPermissionsResultCallback;", "()V", "binding", "Lfr/epf/min1/projetandroidvelib/databinding/ActivityMapsBinding;", "listStations", "", "Lfr/epf/min1/projetandroidvelib/model/StationInformation;", "getListStations", "()Ljava/util/List;", "setListStations", "(Ljava/util/List;)V", "mMap", "Lcom/google/android/gms/maps/GoogleMap;", "enableMyLocation", "", "onCreate", "savedInstanceState", "Landroid/os/Bundle;", "onCreateOptionsMenu", "", "menu", "Landroid/view/Menu;", "onInfoWindowClick", "marker", "Lcom/google/android/gms/maps/model/Marker;", "onMapReady", "googleMap", "onMyLocationButtonClick", "onMyLocationClick", "p0", "Landroid/location/Location;", "onOptionsItemSelected", "item", "Landroid/view/MenuItem;", "synchroApi", "app_debug"})
+public final class MapsActivity extends androidx.appcompat.app.AppCompatActivity implements com.google.android.gms.maps.GoogleMap.OnInfoWindowClickListener, com.google.android.gms.maps.OnMapReadyCallback, com.google.android.gms.maps.GoogleMap.OnMyLocationButtonClickListener, com.google.android.gms.maps.GoogleMap.OnMyLocationClickListener, androidx.core.app.ActivityCompat.OnRequestPermissionsResultCallback {
     @org.jetbrains.annotations.NotNull()
     private java.util.List<fr.epf.min1.projetandroidvelib.model.StationInformation> listStations;
     private com.google.android.gms.maps.GoogleMap mMap;
@@ -41,6 +41,10 @@ public final class MapsActivity extends androidx.appcompat.app.AppCompatActivity
     com.google.android.gms.maps.GoogleMap googleMap) {
     }
     
+    @android.annotation.SuppressLint(value = {"MissingPermission"})
+    private final void enableMyLocation() {
+    }
+    
     @java.lang.Override()
     public void onInfoWindowClick(@org.jetbrains.annotations.NotNull()
     com.google.android.gms.maps.model.Marker marker) {
@@ -59,5 +63,15 @@ public final class MapsActivity extends androidx.appcompat.app.AppCompatActivity
     }
     
     private final void synchroApi() {
+    }
+    
+    @java.lang.Override()
+    public boolean onMyLocationButtonClick() {
+        return false;
+    }
+    
+    @java.lang.Override()
+    public void onMyLocationClick(@org.jetbrains.annotations.NotNull()
+    android.location.Location p0) {
     }
 }

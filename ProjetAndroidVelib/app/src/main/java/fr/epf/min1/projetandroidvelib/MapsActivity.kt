@@ -1,6 +1,10 @@
 package fr.epf.min1.projetandroidvelib
 
+import android.Manifest
+import android.annotation.SuppressLint
 import android.content.Intent
+import android.content.pm.PackageManager
+import android.location.Location
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -10,11 +14,13 @@ import android.widget.Toast
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
+import androidx.core.app.ActivityCompat.OnRequestPermissionsResultCallback
+import androidx.core.content.ContextCompat
+import com.google.android.gms.maps.GoogleMap.OnMyLocationButtonClickListener
+import com.google.android.gms.maps.GoogleMap.OnMyLocationClickListener
+import com.google.android.gms.maps.GoogleMap.OnInfoWindowClickListener
 import com.google.android.gms.maps.SupportMapFragment
-import com.google.android.gms.maps.model.BitmapDescriptorFactory
-import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.Marker
-import com.google.android.gms.maps.model.MarkerOptions
+import com.google.android.gms.maps.model.*
 import com.google.gson.JsonObject
 import fr.epf.min1.projetandroidvelib.api.InformationService
 import fr.epf.min1.projetandroidvelib.databinding.ActivityMapsBinding
@@ -22,7 +28,8 @@ import fr.epf.min1.projetandroidvelib.model.StationInformation
 import retrofit2.*
 import retrofit2.converter.gson.GsonConverterFactory
 
-class MapsActivity : AppCompatActivity(), GoogleMap.OnInfoWindowClickListener, OnMapReadyCallback {
+class MapsActivity : AppCompatActivity(), OnInfoWindowClickListener, OnMapReadyCallback,
+OnMyLocationButtonClickListener, OnMyLocationClickListener, OnRequestPermissionsResultCallback {
 
     var listStations: MutableList<StationInformation> = mutableListOf()
     private lateinit var mMap: GoogleMap
@@ -51,8 +58,23 @@ class MapsActivity : AppCompatActivity(), GoogleMap.OnInfoWindowClickListener, O
      */
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
+        mMap.setMapStyle(
+            MapStyleOptions.loadRawResourceStyle(this, R.raw.style_json)
+        )
+        mMap.setOnMyLocationButtonClickListener(this)
+        mMap.setOnMyLocationClickListener(this)
+        enableMyLocation()
         synchroApi()
         mMap.setOnInfoWindowClickListener(this)
+    }
+
+    @SuppressLint("MissingPermission")
+    private fun enableMyLocation() {
+        if(!::mMap.isInitialized) return
+        if(ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
+            == PackageManager.PERMISSION_GRANTED) {
+            mMap.isMyLocationEnabled = true
+        }
     }
 
     override fun onInfoWindowClick(marker: Marker) {
@@ -125,5 +147,13 @@ class MapsActivity : AppCompatActivity(), GoogleMap.OnInfoWindowClickListener, O
             }
         }
         )
+    }
+
+    override fun onMyLocationButtonClick(): Boolean {
+        Toast.makeText(this, "Votre position actuelle", Toast.LENGTH_SHORT).show()
+        return false
+    }
+
+    override fun onMyLocationClick(p0: Location) {
     }
 }

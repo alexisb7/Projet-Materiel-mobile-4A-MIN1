@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#B6A482"
     tools:context=".FavoritesStationsActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/list_favorites_stations"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </androidx.recyclerview.widget.RecyclerView>
+        android:layout_height="match_parent"
+        android:background="#ebe3cd"></androidx.recyclerview.widget.RecyclerView>
 </FrameLayout>

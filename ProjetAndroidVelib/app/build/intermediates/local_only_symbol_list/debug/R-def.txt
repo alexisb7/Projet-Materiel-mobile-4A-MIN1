@@ -46,6 +46,7 @@ menu goto_map
 menu menu_details
 mipmap ic_launcher
 mipmap ic_launcher_round
+raw style_json
 string add_favorites
 string add_new_user
 string app_name
