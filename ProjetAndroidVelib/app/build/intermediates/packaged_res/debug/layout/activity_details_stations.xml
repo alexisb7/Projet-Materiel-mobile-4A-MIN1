@@ -6,6 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".DetailsStationsActivity">
 
+    <TextView
+        android:id="@+id/operationnel"
+        android:layout_width="30dp"
+        android:layout_height="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/capacity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/operationnel_tv"
+        app:layout_constraintTop_toBottomOf="@+id/station_name" />
+
+    <TextView
+        android:id="@+id/operationnel_tv"
+        android:layout_width="105dp"
+        android:layout_height="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/capacity_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/station_name" />
+
     <Button
         android:id="@+id/add_to_favorites_button"
         android:layout_width="wrap_content"
@@ -131,7 +151,7 @@
         app:layout_constraintHorizontal_bias="0.026"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/station_name"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.156"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -145,7 +165,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/capacity_tv"
         app:layout_constraintTop_toBottomOf="@+id/station_name"
-        app:layout_constraintVertical_bias="0.025"
+        app:layout_constraintVertical_bias="0.6"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

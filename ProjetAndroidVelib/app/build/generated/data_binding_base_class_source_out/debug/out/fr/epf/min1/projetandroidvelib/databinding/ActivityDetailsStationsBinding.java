@@ -54,6 +54,12 @@ public final class ActivityDetailsStationsBinding implements ViewBinding {
   public final TextView nbVeloDispoTv;
 
   @NonNull
+  public final TextView operationnel;
+
+  @NonNull
+  public final TextView operationnelTv;
+
+  @NonNull
   public final TextView stationName;
 
   private ActivityDetailsStationsBinding(@NonNull ConstraintLayout rootView,
@@ -61,7 +67,8 @@ public final class ActivityDetailsStationsBinding implements ViewBinding {
       @NonNull TextView capacityTv, @NonNull TextView nbBorneDispo,
       @NonNull TextView nbBorneDispoTv, @NonNull TextView nbEbike, @NonNull TextView nbEbikeTv,
       @NonNull TextView nbMech, @NonNull TextView nbMechTv, @NonNull TextView nbVeloDispo,
-      @NonNull TextView nbVeloDispoTv, @NonNull TextView stationName) {
+      @NonNull TextView nbVeloDispoTv, @NonNull TextView operationnel,
+      @NonNull TextView operationnelTv, @NonNull TextView stationName) {
     this.rootView = rootView;
     this.addToFavoritesButton = addToFavoritesButton;
     this.capacity = capacity;
@@ -74,6 +81,8 @@ public final class ActivityDetailsStationsBinding implements ViewBinding {
     this.nbMechTv = nbMechTv;
     this.nbVeloDispo = nbVeloDispo;
     this.nbVeloDispoTv = nbVeloDispoTv;
+    this.operationnel = operationnel;
+    this.operationnelTv = operationnelTv;
     this.stationName = stationName;
   }
 
@@ -170,6 +179,18 @@ public final class ActivityDetailsStationsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.operationnel;
+      TextView operationnel = ViewBindings.findChildViewById(rootView, id);
+      if (operationnel == null) {
+        break missingId;
+      }
+
+      id = R.id.operationnel_tv;
+      TextView operationnelTv = ViewBindings.findChildViewById(rootView, id);
+      if (operationnelTv == null) {
+        break missingId;
+      }
+
       id = R.id.station_name;
       TextView stationName = ViewBindings.findChildViewById(rootView, id);
       if (stationName == null) {
@@ -178,7 +199,7 @@ public final class ActivityDetailsStationsBinding implements ViewBinding {
 
       return new ActivityDetailsStationsBinding((ConstraintLayout) rootView, addToFavoritesButton,
           capacity, capacityTv, nbBorneDispo, nbBorneDispoTv, nbEbike, nbEbikeTv, nbMech, nbMechTv,
-          nbVeloDispo, nbVeloDispoTv, stationName);
+          nbVeloDispo, nbVeloDispoTv, operationnel, operationnelTv, stationName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

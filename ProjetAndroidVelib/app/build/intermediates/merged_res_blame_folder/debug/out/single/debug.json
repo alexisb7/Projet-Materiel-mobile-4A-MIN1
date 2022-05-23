@@ -12,6 +12,10 @@
         "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
     },
     {
+        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/layout_adapter_station.xml.flat",
+        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/layout/adapter_station.xml"
+    },
+    {
         "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
         "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/drawable/ic_launcher_background.xml"
     },

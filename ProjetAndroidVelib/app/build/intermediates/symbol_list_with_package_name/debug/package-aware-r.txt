@@ -2650,6 +2650,9 @@ id action_mode_close_button
 id action_text
 id actions
 id activity_chooser_view_content
+id adapter_station_capacity
+id adapter_station_imageview
+id adapter_station_name
 id add
 id add_to_favorites_button
 id adjust_height
@@ -2840,6 +2843,7 @@ id line1
 id line3
 id linear
 id listMode
+id list_favorites_stations
 id list_item
 id map
 id masked
@@ -2928,6 +2932,8 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
+id operationnel
+id operationnel_tv
 id outline
 id outward
 id overshoot
@@ -3190,6 +3196,7 @@ layout abc_tooltip
 layout activity_details_stations
 layout activity_favorites_stations
 layout activity_maps
+layout adapter_station
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

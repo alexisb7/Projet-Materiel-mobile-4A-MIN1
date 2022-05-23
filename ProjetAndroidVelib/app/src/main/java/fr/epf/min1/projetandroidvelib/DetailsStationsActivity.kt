@@ -4,12 +4,17 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.room.Room
 import com.google.gson.JsonObject
 import fr.epf.min1.projetandroidvelib.api.StatusService
+import fr.epf.min1.projetandroidvelib.bdd.AppDataBase
+import fr.epf.min1.projetandroidvelib.bdd.StationEntity
 import fr.epf.min1.projetandroidvelib.model.StationStatus
+import kotlinx.coroutines.runBlocking
 import org.w3c.dom.Text
 import retrofit2.Call
 import retrofit2.Callback
@@ -21,12 +26,37 @@ class DetailsStationsActivity : AppCompatActivity() {
 
     lateinit var detailStation: StationStatus
     var stationId = 0
+    var op = "Non"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details_stations)
         stationId = intent.getIntExtra("station_id", -1)
         synchroApi()
+
+        val addFavoritesButton = findViewById<Button>(R.id.add_to_favorites_button)
+        addFavoritesButton.setOnClickListener {
+            val bdd = Room.databaseBuilder(
+                applicationContext,
+                AppDataBase::class.java, "stationEntity"
+            ).build()
+
+            val stationDao = bdd.stationDao()
+            val station = StationEntity(
+                detailStation.stationId,
+                intent.getStringExtra("station_name")!!,
+                op,
+                intent.getIntExtra("station_capacity", -1),
+                detailStation.numBikesAvailable,
+                detailStation.numDocksAvailable,
+                detailStation.mechanical,
+                detailStation.eBike
+            )
+            runBlocking {
+                stationDao.insert(station)
+                Toast.makeText(applicationContext, "Station ajoutée à vos favoris", Toast.LENGTH_SHORT).show()
+            }
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -110,7 +140,15 @@ class DetailsStationsActivity : AppCompatActivity() {
         val nbMechTV = findViewById<TextView>(R.id.nb_mech_tv)
         val tvNbEbike = findViewById<TextView>(R.id.nb_ebike)
         val nbEbikeTV = findViewById<TextView>(R.id.nb_ebike_tv)
+        val tvOperationnel = findViewById<TextView>(R.id.operationnel)
+        val operationnelTV = findViewById<TextView>(R.id.operationnel_tv)
         tvName.text = name
+        operationnelTV.text = "Opérationnelle : "
+        if(detailStation.isInstalled == 1 && detailStation.isRenting == 1 && detailStation.isReturning ==1 ){
+            tvOperationnel.text = "Oui"
+            op = "Oui"
+        }
+        else tvOperationnel.text = op
         capacityTV.text = "Capacité : "
         nbBikeAvailableTV.text = "Nombre de vélos disponibles : "
         nbDockAvailableTV.text = "Nombre de bornes diponibles : "

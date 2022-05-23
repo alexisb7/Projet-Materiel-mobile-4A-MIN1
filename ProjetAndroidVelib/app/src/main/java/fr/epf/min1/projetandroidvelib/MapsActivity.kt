@@ -111,7 +111,7 @@ class MapsActivity : AppCompatActivity(), GoogleMap.OnInfoWindowClickListener, O
                                 .position(position)
                                 .title(s.name)
                                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE))
-                                .snippet("Capacité : ${s.capacity}")
+                                .snippet("Cliquer pour plus de détails")
                             )
                             val zoomLevel = 16.0f
                             mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(position, zoomLevel))

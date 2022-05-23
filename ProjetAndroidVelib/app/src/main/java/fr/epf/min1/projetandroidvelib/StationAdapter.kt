@@ -1,0 +1,41 @@
+package fr.epf.min1.projetandroidvelib
+
+import android.content.Intent
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.TextView
+import androidx.recyclerview.widget.RecyclerView
+import fr.epf.min1.projetandroidvelib.bdd.StationEntity
+
+class StationAdapter (val listStation: List<StationEntity>) : RecyclerView.Adapter<StationAdapter.StationViewHolder>(){
+
+    class StationViewHolder(val view: View) : RecyclerView.ViewHolder(view)
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StationViewHolder {
+        val inflater = LayoutInflater.from(parent.context)
+        val stationView = inflater.inflate(R.layout.adapter_station, parent, false)
+        return StationViewHolder(stationView)
+    }
+
+    override fun onBindViewHolder(holder: StationViewHolder, position: Int) {
+        val stationEntity = listStation[position]
+
+        holder.view.setOnClickListener{
+            val context = it.context
+            val intent = Intent(context, DetailsStationsActivity::class.java)
+            intent.putExtra("station_id", stationEntity.id)
+            intent.putExtra("station_name", stationEntity.name)
+            intent.putExtra("station_capacity", stationEntity.capacity)
+            context.startActivity(intent)
+        }
+
+        val stationNameTV = holder.view.findViewById<TextView>(R.id.adapter_station_name)
+        stationNameTV.text = stationEntity.name
+
+        val stationCapacityTV = holder.view.findViewById<TextView>(R.id.adapter_station_capacity)
+        stationCapacityTV.text = "Capacité : " + stationEntity.capacity
+    }
+
+    override fun getItemCount(): Int = listStation.size
+}
