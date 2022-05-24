@@ -9,30 +9,38 @@
 
     <TextView
         android:id="@+id/operationnel"
-        android:layout_width="30dp"
-        android:layout_height="18dp"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/capacity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/operationnel_tv"
-        app:layout_constraintTop_toBottomOf="@+id/station_name" />
+        app:layout_constraintTop_toBottomOf="@+id/station_name"
+        app:layout_constraintVertical_bias="0.517" />
 
     <TextView
         android:id="@+id/operationnel_tv"
-        android:layout_width="105dp"
-        android:layout_height="18dp"
+        android:layout_width="135dp"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/capacity_tv"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintHorizontal_bias="0.025"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/station_name" />
+        app:layout_constraintTop_toBottomOf="@+id/station_name"
+        app:layout_constraintVertical_bias="0.517" />
 
     <Button
         android:id="@+id/add_to_favorites_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="visible"
-        app:iconTint="#80D8FF"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#000000"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,30 +48,36 @@
 
     <TextView
         android:id="@+id/nb_ebike"
-        android:layout_width="30dp"
-        android:layout_height="18dp"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.005"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/nb_ebike_tv"
         app:layout_constraintTop_toBottomOf="@+id/nb_mech"
-        app:layout_constraintVertical_bias="0.232" />
+        app:layout_constraintVertical_bias="0.25" />
 
     <TextView
         android:id="@+id/nb_ebike_tv"
-        android:layout_width="195dp"
-        android:layout_height="18dp"
+        android:layout_width="245dp"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintHorizontal_bias="0.042"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nb_mech_tv"
-        app:layout_constraintVertical_bias="0.232" />
+        app:layout_constraintVertical_bias="0.246" />
 
     <TextView
         android:id="@+id/nb_mech"
-        android:layout_width="30dp"
-        android:layout_height="18dp"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -74,8 +88,10 @@
 
     <TextView
         android:id="@+id/nb_mech_tv"
-        android:layout_width="200dp"
-        android:layout_height="18dp"
+        android:layout_width="255dp"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"
@@ -85,9 +101,11 @@
 
     <TextView
         android:id="@+id/nb_borne_dispo"
-        android:layout_width="30dp"
-        android:layout_height="18dp"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
         android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -97,43 +115,50 @@
 
     <TextView
         android:id="@+id/nb_borne_dispo_tv"
-        android:layout_width="200dp"
-        android:layout_height="18dp"
+        android:layout_width="254dp"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nb_velo_dispo_tv"
-        app:layout_constraintVertical_bias="0.154" />
+        app:layout_constraintVertical_bias="0.155" />
 
     <TextView
         android:id="@+id/nb_velo_dispo"
-        android:layout_width="30dp"
-        android:layout_height="18dp"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/nb_velo_dispo_tv"
         app:layout_constraintTop_toBottomOf="@+id/capacity"
-        app:layout_constraintVertical_bias="0.13" />
+        app:layout_constraintVertical_bias="0.117" />
 
     <TextView
         android:id="@+id/nb_velo_dispo_tv"
-        android:layout_width="200dp"
-        android:layout_height="18dp"
+        android:layout_width="249dp"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/capacity_tv"
-        app:layout_constraintVertical_bias="0.131" />
+        app:layout_constraintVertical_bias="0.117" />
 
     <TextView
         android:id="@+id/station_name"
-        android:layout_width="334dp"
-        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -143,12 +168,14 @@
 
     <TextView
         android:id="@+id/capacity_tv"
-        android:layout_width="65dp"
-        android:layout_height="18dp"
+        android:layout_width="81dp"
+        android:layout_height="25dp"
         android:layout_marginTop="48dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintHorizontal_bias="0.021"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/station_name"
         app:layout_constraintVertical_bias="0.156"
@@ -156,16 +183,18 @@
 
     <TextView
         android:id="@+id/capacity"
-        android:layout_width="30dp"
-        android:layout_height="18dp"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
         android:layout_marginTop="46dp"
+        android:fontFamily="sans-serif-black"
         android:textAlignment="center"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/nb_velo_dispo_tv"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/capacity_tv"
         app:layout_constraintTop_toBottomOf="@+id/station_name"
-        app:layout_constraintVertical_bias="0.6"
+        app:layout_constraintVertical_bias="0.628"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
