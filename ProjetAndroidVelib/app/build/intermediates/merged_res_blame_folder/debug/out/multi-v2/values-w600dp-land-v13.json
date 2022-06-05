@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "outputFile": "fr.epf.min1.projetandroidvelib.app-mergeDebugResources-31:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/alexbrt/.gradle/caches/transforms-3/07e874ac893168b5288f677af4fa0739/transformed/material-1.6.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+                    "source": "/Users/alexbrt/.gradle/caches/transforms-3/d24fbcb825e1b61a1b412be3480477fe/transformed/material-1.6.1/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

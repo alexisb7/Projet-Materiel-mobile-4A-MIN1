@@ -9,7 +9,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.room.Room
 import fr.epf.min1.projetandroidvelib.bdd.AppDataBase
-import fr.epf.min1.projetandroidvelib.model.StationInformation
 import kotlinx.coroutines.runBlocking
 
 class FavoritesStationsActivity : AppCompatActivity() {

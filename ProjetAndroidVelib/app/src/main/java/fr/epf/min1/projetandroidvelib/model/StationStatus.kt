@@ -1,7 +1,5 @@
 package fr.epf.min1.projetandroidvelib.model
 
-import java.util.*
-
 data class StationStatus (
     val stationId: Int,
     val isInstalled: Int,

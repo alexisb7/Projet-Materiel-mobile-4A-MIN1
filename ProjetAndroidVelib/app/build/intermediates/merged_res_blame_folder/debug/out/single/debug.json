@@ -1,94 +1,94 @@
 [
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/drawable_ic_baseline_favorite_24.xml.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/drawable/ic_baseline_favorite_24.xml"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/drawable_ic_baseline_favorite_24.xml.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/drawable/ic_baseline_favorite_24.xml"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/raw_style_json.json.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/raw/style_json.json"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/drawable_ic_baseline_refresh_24.xml.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/drawable/ic_baseline_refresh_24.xml"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/drawable_ic_baseline_pedal_bike_24.xml.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/drawable/ic_baseline_pedal_bike_24.xml"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/drawable_ic_baseline_account_circle_24.xml.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/drawable/ic_baseline_account_circle_24.xml"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/drawable_ic_baseline_pedal_bike_24.xml.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/drawable/ic_baseline_pedal_bike_24.xml"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/layout_adapter_station.xml.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/layout/adapter_station.xml"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/drawable_ic_baseline_account_circle_24.xml.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/drawable/ic_baseline_account_circle_24.xml"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/drawable_ic_baseline_refresh_24.xml.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/drawable/ic_baseline_refresh_24.xml"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/menu_goto_favorites_stations.xml.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/menu/goto_favorites_stations.xml"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/menu_goto_favorites_stations.xml.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/menu/goto_favorites_stations.xml"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/layout_activity_favorites_stations.xml.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/layout/activity_favorites_stations.xml"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/layout_adapter_station.xml.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/layout/adapter_station.xml"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/drawable_ic_baseline_location_on_24.xml.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/drawable/ic_baseline_location_on_24.xml"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/layout_activity_details_stations.xml.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/layout/activity_details_stations.xml"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/layout_activity_favorites_stations.xml.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/layout/activity_favorites_stations.xml"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/menu_menu_details.xml.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/menu/menu_details.xml"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/menu_menu_details.xml.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/menu/menu_details.xml"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/menu_goto_map.xml.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/menu/goto_map.xml"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/raw_style_json.json.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/raw/style_json.json"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/layout_activity_maps.xml.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/layout/activity_maps.xml"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/layout_activity_maps.xml.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/layout/activity_maps.xml"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/drawable_ic_baseline_location_on_24.xml.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/drawable/ic_baseline_location_on_24.xml"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/layout_activity_details_stations.xml.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/layout/activity_details_stations.xml"
     },
     {
-        "merged": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/merged_res/debug/menu_goto_map.xml.flat",
-        "source": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/src/main/res/menu/goto_map.xml"
+        "merged": "fr.epf.min1.projetandroidvelib.app-merged_res-33:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "fr.epf.min1.projetandroidvelib.app-main-35:/mipmap-xhdpi/ic_launcher.webp"
     }
 ]

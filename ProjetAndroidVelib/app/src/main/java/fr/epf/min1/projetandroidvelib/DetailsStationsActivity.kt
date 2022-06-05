@@ -15,7 +15,6 @@ import fr.epf.min1.projetandroidvelib.bdd.AppDataBase
 import fr.epf.min1.projetandroidvelib.bdd.StationEntity
 import fr.epf.min1.projetandroidvelib.model.StationStatus
 import kotlinx.coroutines.runBlocking
-import org.w3c.dom.Text
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -167,7 +166,6 @@ class DetailsStationsActivity : AppCompatActivity() {
                     }
                 }
             }
-
             override fun onFailure(call: Call<JsonObject>, t: Throwable) {
                 Toast.makeText(applicationContext, "Erreur serveur", Toast.LENGTH_SHORT).show()
                 printDetailsHC()

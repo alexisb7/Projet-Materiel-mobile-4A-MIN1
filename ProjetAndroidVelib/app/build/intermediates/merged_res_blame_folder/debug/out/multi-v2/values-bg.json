@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/alexbrt/Documents/EPF/4A/S2/Materielmobile/Projet-Materiel-mobile-4A-MIN1/ProjetAndroidVelib/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml",
+            "outputFile": "fr.epf.min1.projetandroidvelib.app-mergeDebugResources-31:/values-bg/values-bg.xml",
             "map": [
                 {
-                    "source": "/Users/alexbrt/.gradle/caches/transforms-3/b55730d202dbd506bed3540b04507718/transformed/appcompat-1.4.1/res/values-bg/values-bg.xml",
+                    "source": "/Users/alexbrt/.gradle/caches/transforms-3/68f949ed82ffbc395456783a8ed37a26/transformed/appcompat-1.4.2/res/values-bg/values-bg.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/alexbrt/.gradle/caches/transforms-3/c9542dbd0186ce4a83911abe2dd43044/transformed/play-services-base-18.0.1/res/values-bg/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "193,298,459,590,697,860,991,1106,1211,1376,1484,1655,1789,1942,2104,2170,2225",
-                        "endColumns": "104,160,130,106,162,130,114,104,164,107,170,133,152,161,65,54,68",
-                        "endOffsets": "297,458,589,696,859,990,1105,1210,1375,1483,1654,1788,1941,2103,2169,2224,2293"
-                    },
-                    "to": {
-                        "startLines": "37,38,39,40,41,42,43,44,46,47,48,49,50,51,52,53,54",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3419,3528,3693,3828,3939,4106,4241,4360,4607,4776,4888,5063,5201,5358,5524,5594,5653",
-                        "endColumns": "108,164,134,110,166,134,118,108,168,111,174,137,156,165,69,58,72",
-                        "endOffsets": "3523,3688,3823,3934,4101,4236,4355,4464,4771,4883,5058,5196,5353,5519,5589,5648,5721"
-                    }
-                },
-                {
-                    "source": "/Users/alexbrt/.gradle/caches/transforms-3/07e874ac893168b5288f677af4fa0739/transformed/material-1.6.0/res/values-bg/values-bg.xml",
+                    "source": "/Users/alexbrt/.gradle/caches/transforms-3/d24fbcb825e1b61a1b412be3480477fe/transformed/material-1.6.1/res/values-bg/values-bg.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -57,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "/Users/alexbrt/.gradle/caches/transforms-3/6a5631c75ad2207889e37901b902d2ca/transformed/play-services-basement-18.0.0/res/values-bg/values.xml",
+                    "source": "/Users/alexbrt/.gradle/caches/transforms-3/ce406bb6ffdaa6d1efa64c4b43db0697/transformed/play-services-basement-18.0.0/res/values-bg/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -74,7 +57,24 @@
                     }
                 },
                 {
-                    "source": "/Users/alexbrt/.gradle/caches/transforms-3/c818dce9f7bb007c24e14ae775ef9339/transformed/core-1.7.0/res/values-bg/values-bg.xml",
+                    "source": "/Users/alexbrt/.gradle/caches/transforms-3/ad107c1602321ea07e2dcf3111481df2/transformed/play-services-base-18.0.1/res/values-bg/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,298,459,590,697,860,991,1106,1211,1376,1484,1655,1789,1942,2104,2170,2225",
+                        "endColumns": "104,160,130,106,162,130,114,104,164,107,170,133,152,161,65,54,68",
+                        "endOffsets": "297,458,589,696,859,990,1105,1210,1375,1483,1654,1788,1941,2103,2169,2224,2293"
+                    },
+                    "to": {
+                        "startLines": "37,38,39,40,41,42,43,44,46,47,48,49,50,51,52,53,54",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3419,3528,3693,3828,3939,4106,4241,4360,4607,4776,4888,5063,5201,5358,5524,5594,5653",
+                        "endColumns": "108,164,134,110,166,134,118,108,168,111,174,137,156,165,69,58,72",
+                        "endOffsets": "3523,3688,3823,3934,4101,4236,4355,4464,4771,4883,5058,5196,5353,5519,5589,5648,5721"
+                    }
+                },
+                {
+                    "source": "/Users/alexbrt/.gradle/caches/transforms-3/2c44cb52a30158d1d24c7494e8f848ad/transformed/core-1.8.0/res/values-bg/values-bg.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
