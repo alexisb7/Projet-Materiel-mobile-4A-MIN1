@@ -1,4 +1,4 @@
-# Projet Materiel mobile 4A MIN1 Alexis BERIOT  
+# Projet Materiel mobile 4A MIN1  
 Module : Matériel mobile  
 Sujet : application Vélib Map  
 
