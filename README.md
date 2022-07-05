@@ -1,6 +1,12 @@
 # Projet Materiel mobile 4A MIN1 Alexis BERIOT  
 Module : Matériel mobile  
 Sujet : application Vélib Map  
+
+
+Instructions pour lancer l'application :  
+- Télécharger Android Studio avec son SDK  
+- Installer un émulateur virtuel si vous ne possédez pas de module physique Android  
+- Ouvrir l'application "VélibMap" dans l'émulateur ou le module physique, ou lancer le projet directement avec "run"
   
 
 Fonctionnalités de base implémentées :  
